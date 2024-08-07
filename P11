@@ -1,0 +1,13 @@
+#Extra Program For Prime Number
+num=int(input('Enter number'))
+i=2
+while i<num:
+    temp=True
+    j=2
+    while j<i:
+        if(i%j==0):
+            temp=False
+        j=j+1
+    if temp:
+        print(i)
+    i=i+1
