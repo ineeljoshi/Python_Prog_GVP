@@ -1,4 +1,21 @@
-#Extra Program For Prime Number
+#(11).Primality testing: Given a positive integer, check if the number is prime or not.
+
+num=int(input('Check Number:'))
+
+if num>1:
+    for i in range(2,num):
+        if num%i==0:
+            print("Not Prime Number.!!")
+            break
+    else:
+        print('Prime Number.!!')
+else:
+    print('Not Prime Number.!!')
+
+
+
+
+#Not List Program Extra.!!
 num=int(input('Enter number'))
 i=2
 while i<num:
